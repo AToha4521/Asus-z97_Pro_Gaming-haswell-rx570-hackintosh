@@ -1,6 +1,10 @@
 # OC-asus_z97_Pro_Gaming-rx570-hackintosh
 Opencore Bootloader For Asus Z97-Pro Gaming With Radeon rx570 GPU to boot and use MacOS 
 
+## Screenshots
+![Screenshot 2024-12-22 at 1 17 32 PM](https://github.com/user-attachments/assets/4aeea4e8-9533-4b1c-b5b9-f9bbec8c5a1e)
+
+
 ## Hardware Specs
 | Components      | Name                                    |  Brand Links                                                                                                                                               |
 | --------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
