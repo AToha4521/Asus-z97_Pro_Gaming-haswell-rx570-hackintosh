@@ -15,7 +15,7 @@ Opencore Bootloader For Asus Z97-Pro Gaming With Radeon rx570 GPU to boot and us
 | **dGPU**        | `AMD Radeon RX 570 8GB`                 | [`Sapphire Pulse`](https://www.sapphiretech.com/en/consumer/pulse-rx-570-8g-g5)                                                                        |
 | **Ram**         | `DDR3 32GB / 1600Mhz`                   |                                                                                          |
 | **Ethernet**    | `Intel Gigabit Ethernet Connection 1218V2`             | [`Intel`](https://www.intel.com/content/www/us/en/products/sku/71305/intel-ethernet-connection-i218v/specifications.html)                                                                                               |
-| **Audio**       | `Realek Codec ALC887`                          | [`Realtek`](http://www.chipset-ic.com/datasheet/ALC887.pdf)                                                                                                |
+| **Audio**       | `Realek Codec ALC1150`                          | [`Realtek`](https://www.chipset-ic.com/datasheet/ALC1150.pdf)                                                                                                |
 
 ## Bios Settings
 
