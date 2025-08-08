@@ -2,6 +2,8 @@
 Opencore Bootloader For Asus Z97-Pro Gaming With Radeon rx570 GPU to boot and use MacOS 
 
 ## Screenshots
+
+ [macOS Sonoma]
 ![Screenshot 2024-12-22 at 1 17 32 PM](https://github.com/user-attachments/assets/4aeea4e8-9533-4b1c-b5b9-f9bbec8c5a1e)
 
 
@@ -37,10 +39,12 @@ Opencore Bootloader For Asus Z97-Pro Gaming With Radeon rx570 GPU to boot and us
 
 | Name           | Version | Build      | Image links                                                                                                                                                                                                                                                           |
 | -------------- | ------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `macOS Sequoia`|`15.0   `| `24A335`   | [`pkg`](https://swcdn.apple.com/content/downloads/11/43/062-78429-A_DAI7Y9IP98/qxbabjzemiel7guag7q09xxe0631iie45p/InstallAssistant.pkg) / [`rdr`](https://rutracker.org/forum/viewtopic.php?t=6561469) |
 | `macOS Sonoma` |`14.6.1` | `23G93`    | [`DMG`](https://drive.google.com/file/d/1kTcAHoKdAfEp-l8bTtwps7EyKTbYqr4V/view?usp=sharing) / [`rdr`](https://rutracker.org/forum/viewtopic.php?t=6372743)                                                                                                            |
 | `macOS Ventura`| `13.6.7`| `22G720`   | [`DMG`](https://drive.google.com/file/d/1YBoZio8yaiURgJNl7SIXly0l2dvI8Fvt/view?usp=sharing) / [`rdr`](https://rutracker.org/forum/viewtopic.php?t=6223477)                                                                                                            | 
 |`macOS Monterey`| `12.7.5`| `21H1222`  | [`DMG`](https://drive.google.com/file/d/1fnlLVPrWgrMpAeC_3GjGk5vIV5-3tO4b/view?usp=sharing) / [`rdr`](https://rutracker.org/forum/viewtopic.php?t=6066530)                                                                                                            |
 | `macOS Big Sur`|`11.7.10`| `20G1427`  | [`DMG`](https://drive.google.com/file/d/1urRARlkOi6NVc5b6CM0RFLvDLhsCcU5D/view?usp=sharing) / [`rdr`](https://rutracker.org/forum/viewtopic.php?t=5928524)                                                                                                            |
+
 
 ## Configuring your Config.plist
 
@@ -144,7 +148,7 @@ git clone https://github.com/corpnewt/GenSMBIOS && cd GenSMBIOS && chmod +x GenS
 - [x] `AMD Radeon Rx570 Graphics` acceleration.
 - [x] dGPU & CPU Power Management.
 - [x] `HDMI Sound` Working
-- [x] `On-Board Sound` Working
+- [x] `On-Board Sound` Working, Use only AppleALC & AppleHDA for macOS Sonoma and higher
 - [x] Apple Services `iCloud, App Store, iMessage, FaceTime` Working
 - [x] Restart, Sleep and Shutdown Working
 - [x] USB 2.0 & USB 3.0 Working
@@ -154,4 +158,11 @@ git clone https://github.com/corpnewt/GenSMBIOS && cd GenSMBIOS && chmod +x GenS
 ## What is not Working?
 - [ ] onboard vga not working
 - [ ] airdrop not work
-- [ ] In the macOS Sonoma, onboard audio is not working, Even updating the Applealc.kext does not work well!
+- [ ] Intel HD 4600 not working on `macOS Ventura` and `macOS Sonoma`
+
+## Post-Install Help
+<details>
+<summary><strong>Changing The CPU Name from i5 to i7</strong></summary>
+</br>
+   Coming Soon
+</details>
